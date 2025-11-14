@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ey</groupId>
+    <groupId>com.github.rafaelferreira-barba</groupId>
     <artifactId>feature-flag</artifactId>
     <version>1.0.0</version>
 
@@ -40,9 +40,18 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>githubEy</id>
-            <name>GitHub Packages - EY</name>
-            <url>https://maven.pkg.github.com/rafaelferreira-BARBA/feature-flag</url>
+            <id>githubEY</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/rafaelferreira-barba/feature-flag</url>
         </repository>
     </distributionManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.1.1</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
