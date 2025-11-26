@@ -40,7 +40,7 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>githubEY</id>
+            <id>github</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/eylatamsouth/feature-flag</url>
         </repository>
