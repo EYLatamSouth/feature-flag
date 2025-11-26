@@ -42,7 +42,7 @@
         <repository>
             <id>githubEY</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rafaelferreira-barba/feature-flag</url>
+            <url>https://maven.pkg.github.com/eylatamsouth/feature-flag</url>
         </repository>
     </distributionManagement>
     <build>
